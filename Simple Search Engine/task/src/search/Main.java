@@ -4,39 +4,70 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        final Scanner scanner = new Scanner(System.in);
+    final static Scanner scanner;
 
-        System.out.println("Enter the number of people:");
+    static {
+        scanner = new Scanner(System.in);
+    }
+
+    public static void main(String[] args) {
+        String[] users = catchUsers();
+
+        int option;
+        do {
+            switch (option = menu()) {
+                case 1:
+                    boolean foundSomeone = false;
+                    System.out.printf("\nEnter data to search people:\n");
+                    String que = scanner.nextLine();
+
+                    for (String user : users) {
+                        if (user.toLowerCase().indexOf(que.toLowerCase()) != -1) {
+                            System.out.println(user);
+                            foundSomeone = true;
+                        }
+                    }
+                    if (!foundSomeone) {
+                        System.out.println("No matching people found.");
+                    }
+                    break;
+                case 2:
+                    System.out.println();
+                    printArr(users);
+                    break;
+            }
+        } while (option != 0);
+
+        System.out.println("\nBye!");
+    }
+
+    private static String[] catchUsers() {
+        System.out.printf("\nEnter the number of people:\n");
         final int N = Integer.parseInt(scanner.nextLine());
 
-        String[] users = new String[N];
         System.out.println("Enter all people:");
+        String[] users = new String[N];
         for (int i = 0; i < N; i++) {
             users[i] = scanner.nextLine();
         }
+        return users;
+    }
 
-        System.out.println();
-        System.out.println("Enter number of queries:");
-        final int M = Integer.parseInt(scanner.nextLine());
+    private static int menu() {
+        System.out.printf("\n=== Menu ===\n");
+        System.out.println("1. Find a person");
+        System.out.println("2. Print all people");
+        System.out.println("0. Exit");
 
-        for (int i = 0; i < M; i++) {
-            boolean foundSomeone = false;
-            System.out.println();
-            System.out.println("Enter data to search people:");
-            String que = scanner.nextLine();
+        String temp = scanner.nextLine();
 
-            for (String user : users) {
-                if (user.toLowerCase().indexOf(que.toLowerCase()) != -1) {
-                    System.out.println(user);
-                    foundSomeone = true;
-                }
-            }
-            if (!foundSomeone) {
-                System.out.println("No matching people found.");
-            }
+        return Integer.parseInt(temp);
+    }
+
+    private static void printArr(String[] users) {
+        System.out.println("=== List of people ===");
+        for (String user : users) {
+            System.out.println(user);
         }
-
-        scanner.close();
     }
 }
