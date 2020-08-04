@@ -1,5 +1,7 @@
 package search;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -11,7 +13,16 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String[] users = catchUsers();
+        String location = null;
+        for (int i = 0; i < args.length; i += 2) {
+            switch (args[i]) {
+                case "--data":
+                    location = args[i + 1];
+                    break;
+            }
+        }
+
+        String[] users = location == null ? catchUsers() : catchUsersFromFile(location);
 
         int option;
         do {
@@ -51,6 +62,25 @@ public class Main {
             users[i] = scanner.nextLine();
         }
         return users;
+    }
+
+    private static String[] catchUsersFromFile(String location) {
+        File file = new File(location);
+        try (Scanner scannerFile = new Scanner(file)) {
+
+            StringBuilder temp = new StringBuilder();
+            while (scannerFile.hasNextLine()) {
+                temp.append("\n");
+                temp.append(scannerFile.nextLine());
+            }
+
+            return temp.toString().split("\n");
+
+        } catch (final FileNotFoundException e) {
+            System.out.printf("No file: %s", location);
+        }
+
+        return new String[0];
     }
 
     private static int menu() {
