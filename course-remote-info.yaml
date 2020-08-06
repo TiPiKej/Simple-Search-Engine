@@ -97,8 +97,6 @@ topics:
   3:
   - title: Introduction to OOP
     theory_id: 3614
-  - title: Computer programming
-    theory_id: 8739
   - title: What is an exception
     theory_id: 3497
   - title: Hierarchy of exceptions
