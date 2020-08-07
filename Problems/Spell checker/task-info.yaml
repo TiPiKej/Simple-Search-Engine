@@ -1,0 +1,39 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2351
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 11. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    3
+    a
+    bb
+    cCc
+    2
+    a bb aab aba ccc
+    c bb aaa
+    Correct output:
+    aba
+    c
+    aab
+    aaa
+
+    Your code output:
+    a
+    bb
+    ccc
+  time: Fri, 07 Aug 2020 12:23:00 UTC
+record: -1
