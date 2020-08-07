@@ -12,8 +12,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Problems/Concat positive numbers" />
+            <option value="$PROJECT_DIR$/Problems/Creating a set" />
             <option value="$PROJECT_DIR$/Problems/Find the nearest number" />
             <option value="$PROJECT_DIR$/Problems/Greek letters" />
+            <option value="$PROJECT_DIR$/Problems/Hiring a chef" />
             <option value="$PROJECT_DIR$/Problems/Output the list's elements" />
             <option value="$PROJECT_DIR$/Problems/Split a list into sublists" />
             <option value="$PROJECT_DIR$/Problems/Squares list" />
