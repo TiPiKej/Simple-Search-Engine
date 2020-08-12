@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-04T20:14:00" hostname="DESKTOP-V5L7Q4Q" time="0.316">
+<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-12T01:05:09" hostname="WIN10" time="0.292">
   <properties/>
-  <testcase name="start" classname="SimpleSearchEngineTest" time="0.316"/>
+  <testcase name="start" classname="SimpleSearchEngineTest" time="0.292"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
@@ -23,7 +23,7 @@ Wendolyn Mcphillips
 Jim Gray
 Coreen Beckham
 Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
+Shannan Bob stropeshah@gmail.com
 Yer Fillion
 Margene Resendez marres@gmail.com
 Blossom Ambler
@@ -33,13 +33,13 @@ Abram Goldsberry
 Yer Leopold
 Stefania Trunzo
 Alexis Leopold
-Carlene Pompa
+Carlene Bob
 Oliver Dacruz
 Jonie Richter
 Pasquale Gallien gallien@evilcorp.com
 Verdie Gentle
 Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
+Agripina Bob
 Latricia Niebuhr
 Malena Schommer
 Drema Leopold
@@ -56,7 +56,7 @@ Demetria Hostetler gallien@evilcorp.com
 Nydia Mcduffie
 Florencio Defibaugh
 Warner Giblin
-May Mans
+Bob Mans
 Shu Gray
 Kaycee Gray
 Victorina Froehlich victory@gmail.com
@@ -81,7 +81,7 @@ Start test 2?[0m
 > 1
 
 Enter data to search people:
-> burgess
+> qwerty
 No matching people found.
 
 === Menu ===
@@ -101,8 +101,11 @@ Start test 3?[0m
 > 1
 
 Enter data to search people:
-> erick
-No matching people found.
+> Leopold
+3 persons found:
+Yer Leopold
+Alexis Leopold
+Drema Leopold
 
 === Menu ===
 1. Find a person
@@ -127,8 +130,13 @@ Start test 4?[0m
 > 1
 
 Enter data to search people:
-> burgess
-No matching people found.
+> Bob
+5 persons found:
+Bob Yeh bobyeah@gmail.com
+Shannan Bob stropeshah@gmail.com
+Carlene Bob
+Agripina Bob
+Bob Mans
 
 === Menu ===
 1. Find a person
@@ -148,7 +156,7 @@ Wendolyn Mcphillips
 Jim Gray
 Coreen Beckham
 Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
+Shannan Bob stropeshah@gmail.com
 Yer Fillion
 Margene Resendez marres@gmail.com
 Blossom Ambler
@@ -158,13 +166,13 @@ Abram Goldsberry
 Yer Leopold
 Stefania Trunzo
 Alexis Leopold
-Carlene Pompa
+Carlene Bob
 Oliver Dacruz
 Jonie Richter
 Pasquale Gallien gallien@evilcorp.com
 Verdie Gentle
 Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
+Agripina Bob
 Latricia Niebuhr
 Malena Schommer
 Drema Leopold
@@ -181,7 +189,7 @@ Demetria Hostetler gallien@evilcorp.com
 Nydia Mcduffie
 Florencio Defibaugh
 Warner Giblin
-May Mans
+Bob Mans
 Shu Gray
 Kaycee Gray
 Victorina Froehlich victory@gmail.com
@@ -207,7 +215,7 @@ Wendolyn Mcphillips
 Jim Gray
 Coreen Beckham
 Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
+Shannan Bob stropeshah@gmail.com
 Yer Fillion
 Margene Resendez marres@gmail.com
 Blossom Ambler
@@ -217,13 +225,13 @@ Abram Goldsberry
 Yer Leopold
 Stefania Trunzo
 Alexis Leopold
-Carlene Pompa
+Carlene Bob
 Oliver Dacruz
 Jonie Richter
 Pasquale Gallien gallien@evilcorp.com
 Verdie Gentle
 Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
+Agripina Bob
 Latricia Niebuhr
 Malena Schommer
 Drema Leopold
@@ -240,7 +248,7 @@ Demetria Hostetler gallien@evilcorp.com
 Nydia Mcduffie
 Florencio Defibaugh
 Warner Giblin
-May Mans
+Bob Mans
 Shu Gray
 Kaycee Gray
 Victorina Froehlich victory@gmail.com
@@ -255,8 +263,11 @@ Elyse Pauling
 > 1
 
 Enter data to search people:
-> erick
-No matching people found.
+> Leopold
+3 persons found:
+Yer Leopold
+Alexis Leopold
+Drema Leopold
 
 === Menu ===
 1. Find a person
@@ -272,152 +283,24 @@ Start test 5?[0m
 1. Find a person
 2. Print all people
 0. Exit
-> 2
-
-=== List of people ===
-
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Yer Fillion
-Margene Resendez marres@gmail.com
-Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
-Carlene Pompa
-Oliver Dacruz
-Jonie Richter
-Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-May Mans
-Shu Gray
-Kaycee Gray
-Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
 > 1
 
 Enter data to search people:
 > @
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Margene Resendez marres@gmail.com
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Pasquale Gallien gallien@evilcorp.com
-Gerardo Strouth gallien@evilcorp.com
-Angelita Wigington gallien@evilcorp.com
-Remi Malek fsociefy@gmail.com
-Demetria Hostetler gallien@evilcorp.com
-Victorina Froehlich victory@gmail.com
-Erica Radford hisam@gmail.com
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter data to search people:
-> this text never find some match
 No matching people found.
 
 === Menu ===
 1. Find a person
 2. Print all people
 0. Exit
-> 2
+> 1
 
-=== List of people ===
-
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Yer Fillion
-Margene Resendez marres@gmail.com
-Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
+Enter data to search people:
+> Leopold
+3 persons found:
 Yer Leopold
-Stefania Trunzo
 Alexis Leopold
-Carlene Pompa
-Oliver Dacruz
-Jonie Richter
-Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
-Latricia Niebuhr
-Malena Schommer
 Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-May Mans
-Shu Gray
-Kaycee Gray
-Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
 
 === Menu ===
 1. Find a person
@@ -467,79 +350,7 @@ Start test 8?[0m
 
 Enter data to search people:
 > h
-Wendolyn Mcphillips
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Jonie Richter
-Gerardo Strouth gallien@evilcorp.com
-Latricia Niebuhr
-Malena Schommer
-Heide Payeur
-Demetria Hostetler gallien@evilcorp.com
-Florencio Defibaugh
-Shu Gray
-Victorina Froehlich victory@gmail.com
-Erica Radford hisam@gmail.com
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 2
-
-=== List of people ===
-
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Yer Fillion
-Margene Resendez marres@gmail.com
-Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
-Carlene Pompa
-Oliver Dacruz
-Jonie Richter
-Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-May Mans
-Shu Gray
-Kaycee Gray
-Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
+No matching people found.
 
 === Menu ===
 1. Find a person
@@ -548,17 +359,12 @@ Elyse Pauling
 > 1
 
 Enter data to search people:
-> @gmail.com
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Margene Resendez marres@gmail.com
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Remi Malek fsociefy@gmail.com
-Victorina Froehlich victory@gmail.com
-Erica Radford hisam@gmail.com
+> gallien@evilcorp.com
+4 persons found:
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
 
 === Menu ===
 1. Find a person
@@ -594,7 +400,7 @@ Wendolyn Mcphillips
 Jim Gray
 Coreen Beckham
 Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
+Shannan Bob stropeshah@gmail.com
 Yer Fillion
 Margene Resendez marres@gmail.com
 Blossom Ambler
@@ -604,13 +410,13 @@ Abram Goldsberry
 Yer Leopold
 Stefania Trunzo
 Alexis Leopold
-Carlene Pompa
+Carlene Bob
 Oliver Dacruz
 Jonie Richter
 Pasquale Gallien gallien@evilcorp.com
 Verdie Gentle
 Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
+Agripina Bob
 Latricia Niebuhr
 Malena Schommer
 Drema Leopold
@@ -627,7 +433,7 @@ Demetria Hostetler gallien@evilcorp.com
 Nydia Mcduffie
 Florencio Defibaugh
 Warner Giblin
-May Mans
+Bob Mans
 Shu Gray
 Kaycee Gray
 Victorina Froehlich victory@gmail.com
@@ -653,7 +459,7 @@ Wendolyn Mcphillips
 Jim Gray
 Coreen Beckham
 Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
+Shannan Bob stropeshah@gmail.com
 Yer Fillion
 Margene Resendez marres@gmail.com
 Blossom Ambler
@@ -663,13 +469,13 @@ Abram Goldsberry
 Yer Leopold
 Stefania Trunzo
 Alexis Leopold
-Carlene Pompa
+Carlene Bob
 Oliver Dacruz
 Jonie Richter
 Pasquale Gallien gallien@evilcorp.com
 Verdie Gentle
 Gerardo Strouth gallien@evilcorp.com
-Agripina Dones
+Agripina Bob
 Latricia Niebuhr
 Malena Schommer
 Drema Leopold
@@ -686,7 +492,7 @@ Demetria Hostetler gallien@evilcorp.com
 Nydia Mcduffie
 Florencio Defibaugh
 Warner Giblin
-May Mans
+Bob Mans
 Shu Gray
 Kaycee Gray
 Victorina Froehlich victory@gmail.com
@@ -712,20 +518,7 @@ No matching people found.
 
 Enter data to search people:
 > h
-Wendolyn Mcphillips
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Jonie Richter
-Gerardo Strouth gallien@evilcorp.com
-Latricia Niebuhr
-Malena Schommer
-Heide Payeur
-Demetria Hostetler gallien@evilcorp.com
-Florencio Defibaugh
-Shu Gray
-Victorina Froehlich victory@gmail.com
-Erica Radford hisam@gmail.com
+No matching people found.
 
 === Menu ===
 1. Find a person
@@ -734,17 +527,12 @@ Erica Radford hisam@gmail.com
 > 1
 
 Enter data to search people:
-> @GMAIL
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Bob Yeh bobyeah@gmail.com
-Shannan Strope stropeshah@gmail.com
-Margene Resendez marres@gmail.com
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Remi Malek fsociefy@gmail.com
-Victorina Froehlich victory@gmail.com
-Erica Radford hisam@gmail.com
+> gallien@evilcorp.com
+4 persons found:
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
 
 === Menu ===
 1. Find a person

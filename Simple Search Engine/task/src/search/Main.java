@@ -2,8 +2,8 @@ package search;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Objects;
-import java.util.Scanner;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Main {
     final static Scanner scanner;
@@ -24,22 +24,35 @@ public class Main {
 
         String[] users = location == null ? catchUsers() : catchUsersFromFile(location);
 
+        Map<String, Integer[]> map = new LinkedHashMap<>();
+        for (int i = 0; i < users.length; i++) {
+            String[] temp = users[i].toLowerCase().split(" ");
+            for (String data : temp) {
+                int len = map.get(data) == null ? 0 : map.get(data).length;
+                Integer[] nbrs = new Integer[len + 1];
+                for (int j = 0; j < len; j++) {
+                    nbrs[j] = map.get(data)[j];
+                } nbrs[len] = i;
+
+                map.put(data, nbrs);
+            }
+        }
+
         int option;
         do {
             switch (option = menu()) {
                 case 1:
                     boolean foundSomeone = false;
                     System.out.printf("\nEnter data to search people:\n");
-                    String que = scanner.nextLine();
+                    String que = scanner.nextLine().toLowerCase();
 
-                    for (String user : users) {
-                        if (user.toLowerCase().indexOf(que.toLowerCase()) != -1) {
-                            System.out.println(user);
-                            foundSomeone = true;
-                        }
-                    }
-                    if (!foundSomeone) {
+                    if (map.get(que) == null) {
                         System.out.println("No matching people found.");
+                    } else {
+                        System.out.printf("%d persons found:\n", map.get(que).length);
+                        for (int line : map.get(que)) {
+                            System.out.println(users[line]);
+                        }
                     }
                     break;
                 case 2:
